@@ -1,0 +1,10 @@
+const prompt = require("prompt-sync") ({ sigint: true})
+console.log("=================")
+console.log("KALKULATOR ENERGI")
+console.log("=================")
+//let e = Number(prompt("Energi : "))
+let m = Number (prompt("Massa Benda : "))
+let c = Number(prompt("Kecepatan cahaya : "))
+let energi = m * (c *c)
+console.log(`
+    energi = ${energi} Joule `) 
