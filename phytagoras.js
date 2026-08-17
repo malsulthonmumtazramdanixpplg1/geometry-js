@@ -1,0 +1,10 @@
+const prompt = require("prompt-sync") ({ sigint: true})
+console.log("=====================")
+console.log("KALKULATOR PHYTAGORAS")
+console.log("=====================")
+//let c = Number(prompt("Sisi Miring : "))
+let a = Number(prompt("Sisi Tinggi : "))
+let b = Number(prompt("Sisi Alas : "))
+let miring = (a * a) + (b * b) 
+console.log(`
+    Sisi Miring = ${miring}`)
